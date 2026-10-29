@@ -1,0 +1,8 @@
+# Dependencies for phf-stream-pi
+# WebSocket streaming and high-speed array processing
+websockets>=13.0
+numpy>=1.24.0
+
+# Raspberry Pi Camera support (available via apt python3-picamera2 on Raspberry Pi OS)
+# Optional fallback for USB cameras when picamera2 is not used:
+# opencv-python-headless
